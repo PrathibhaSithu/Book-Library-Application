@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvExamName"-->
+<!--        android:layout_width="392dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/ExamName"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="30sp">-->
+
+<!--    </TextView>-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="396dp"
+        android:layout_height="130dp">
+
+        <TextView
+            android:id="@+id/tvExamName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="239dp"
+            android:text="@string/ExamName"
+            android:textColor="#080A1A"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvSubject"
+            app:layout_constraintEnd_toStartOf="@+id/textView18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.571" />
+
+        <TextView
+            android:id="@+id/tvExamType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="201dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/ExamType"
+            android:textColor="#7E7E7E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView19"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="183dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/Subject"
+            android:textColor="#080A1A"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvExamType"
+            app:layout_constraintEnd_toStartOf="@+id/textView19"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvNoOfQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="21dp"
+            android:text="@string/healdDate"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvExamDate" />
+
+        <TextView
+            android:id="@+id/tvExamDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Time"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvNoOfQuestion"
+            app:layout_constraintEnd_toEndOf="@+id/tvNoOfQuestion"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/allocatemark"
+            android:textColor="#878787"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvExamDate"
+            app:layout_constraintEnd_toEndOf="@+id/tvExamDate"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

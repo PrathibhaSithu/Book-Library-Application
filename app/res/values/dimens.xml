@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="hr_text_size">45dp</dimen>
+    <dimen name="normal_text_size">20dp</dimen>
+    <dimen name="text_size_btn">20dp</dimen>
+    <dimen name="text_size_smbtn">20dp</dimen>
+    <dimen name="submit_btn_text">40dp</dimen>
+    <dimen name="submit_btn_width">387dp</dimen>
+    <dimen name="submit_btn_height">61dp</dimen>
+    <dimen name="sm_btn_width">72dp</dimen>
+    <dimen name="sm_btn_height">20dp</dimen>
+    <dimen name="insert_box_width">378dp</dimen>
+    <dimen name="insert_box_height">40dp</dimen>
+</resources>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/ExamDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="@+id/textView35"
+        app:layout_constraintStart_toStartOf="@+id/textView35"
+        app:layout_constraintTop_toBottomOf="@+id/textView35"
+        />
+
+    <TextView
+
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SubjectName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/SubjectName"
+        app:layout_constraintEnd_toEndOf="@+id/tvExamID"
+        app:layout_constraintStart_toStartOf="@+id/tvExamID"
+        app:layout_constraintTop_toBottomOf="@+id/tvExamID" />
+
+    <TextView
+        android:id="@+id/ExamType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView35"
+        app:layout_constraintEnd_toEndOf="@+id/textView34"
+        app:layout_constraintStart_toStartOf="@+id/textView34"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <TextView
+
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ExamDate"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/ExamDate"
+        app:layout_constraintEnd_toEndOf="@+id/ExamType"
+        app:layout_constraintStart_toStartOf="@+id/ExamType"
+        app:layout_constraintTop_toBottomOf="@+id/ExamType" />
+
+    <TextView
+
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ExamLinks"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/NoOfQuestion"
+        app:layout_constraintEnd_toEndOf="@+id/Garde"
+        app:layout_constraintStart_toStartOf="@+id/Garde"
+        app:layout_constraintTop_toBottomOf="@+id/Garde" />
+
+    <TextView
+
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ExamID"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvExamID"
+        app:layout_constraintEnd_toEndOf="@+id/ExamName"
+        app:layout_constraintStart_toStartOf="@+id/ExamName"
+        app:layout_constraintTop_toBottomOf="@+id/ExamName" />
+
+    <TextView
+
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ExamName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/ExamName"
+        app:layout_constraintEnd_toEndOf="@+id/textView36"
+        app:layout_constraintStart_toStartOf="@+id/textView36"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/NoOfQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView34"
+        app:layout_constraintEnd_toEndOf="@+id/textView31"
+        app:layout_constraintStart_toStartOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/textView31"
+
+        />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:text="@string/ExamDeitails"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ExamName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView29"
+        app:layout_constraintEnd_toEndOf="@+id/textView32"
+        app:layout_constraintStart_toStartOf="@+id/textView32"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/tvExamID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView30"
+        app:layout_constraintEnd_toEndOf="@+id/textView29"
+        app:layout_constraintStart_toStartOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Grade"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/Garde"
+        app:layout_constraintEnd_toEndOf="@+id/SubjectName"
+        app:layout_constraintStart_toStartOf="@+id/SubjectName"
+        app:layout_constraintTop_toBottomOf="@+id/SubjectName" />
+
+    <TextView
+
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ExamType"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/ExamType"
+        app:layout_constraintEnd_toEndOf="@+id/NoOfQuestion"
+        app:layout_constraintStart_toStartOf="@+id/NoOfQuestion"
+        app:layout_constraintTop_toBottomOf="@+id/NoOfQuestion" />
+
+    <TextView
+        android:id="@+id/Garde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView31"
+        app:layout_constraintEnd_toEndOf="@+id/textView33"
+        app:layout_constraintStart_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <TextView
+        android:id="@+id/SubjectName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView33"
+        app:layout_constraintEnd_toEndOf="@+id/textView30"
+        app:layout_constraintStart_toStartOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#00E64E4E"
+        android:text="@string/Removebtn"
+        android:textColor="#E64E4E"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="@+id/button4"
+        app:layout_constraintVertical_bias="0.0"
+        app:strokeColor="#E64E4E"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#00212FC7"
+        android:text="@string/Edit"
+        android:textColor="#212FC7"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#212FC7"
+        app:strokeWidth="1dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
